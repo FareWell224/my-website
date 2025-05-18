@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+    <html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ချစ်လား &#128527;</title>
+    <style>
+        #myButton {
+            position:absolute ;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+
+        <body>
+
+    <h3>
+<p style="text-align: center;" >
+         ချစ်ရင်အာဘွား &#x1F617; ပေးလို့ရတယ်နော်
+
+         
+
+
+<div >
+    <script>
+        function moveButton() {
+            var button = document.getElementById("myButton");
+            var newX = Math.random() * (window.innerWidth - button.offsetWidth);
+            var newY = Math.random() * (window.innerHeight - button.offsetHeight);
+
+            button.style.left = newX + "px";
+            button.style.top = newY + "px";
+        }
+    </script>
+    <button id="myButton" onclick="moveButton()"
+             style= "position: absolute;
+             top: 72px;
+             left: 670px;
+             padding: 10px 15px;
+                  font-size: 16px;
+                  font-weight: bold;
+                  background-color: red;
+                  color: white;
+                  border: none;
+                  border-radius: 10px;
+                  cursor: pointer;
+                  transition: 0.3s;" 
+                  
+    onmouseover="this.style.backgroundColor='red'; this.style.transform='scale(1.1)';" 
+    onmouseout="this.style.backgroundColor='red'; this.style.transform='scale(1)';
+            ">
+                မပေးဘူး
+    </button>
+   
+
+        <a 
+        href="tg://resolve?domain=LatYoneEain"  target="_blank">
+    
+    <button 
+
+          style="position:absolute;
+          top: 72px;
+          left: 770px;
+          padding: 10px 15px;
+                  font-size: 16px;
+                  font-weight: bold;
+                  background-color: green;
+                  color: white;
+                  border: none;
+                  border-radius: 10px;
+                  cursor: pointer;
+                  transition: 0.3s;" 
+    onmouseover="this.style.backgroundColor='green'; this.style.transform='scale(1.1)';" 
+    onmouseout="this.style.backgroundColor='green'; this.style.transform='scale(1)';
+            ">
+                ပေးမယ်
+    </button>
+
+        </a>
+
+</div>
+
+
+
+</p>
+
+    </h3>
+    
+        </body>
+</html>
