@@ -6,16 +6,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ချစ်လား &#128527;</title>
     <style>
+         body{
+            margin: 0;
+        font-family: Arial, sans-serif;
+    }
+        header{
+            background-color: #333;
+            color:white;
+            padding: 1rem;
+            text-align: center;
+    }
+        nav {
+            background-color: #444;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+    }
+        nav a{
+            padding: 1rem;
+            color: white;
+            text-decoration: none;
+    }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 1rem;
+    }  
+        .box {
+            flex: 1 1 300px;
+            margine: 1rem;
+            background-color: #f4f4f4;
+            padding: 1rem;
+            border-radius: 8px;
+    }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 1rem;
+    }
+        @media (max-width:600px) {
+            nav{
+                flex-direction: column;
+            }
+            .box {
+                flex: 1 1 100%;
+            }
+    }  
+
+        
         #myButton {
             position:absolute ;
             padding: 10px 20px;
             font-size: 16px;
             cursor: pointer;
         }
-          }
-        @media (max-width: 600px) {body}
-            {background: lightblue;
-            }
+     
     </style>
 
 </head>
